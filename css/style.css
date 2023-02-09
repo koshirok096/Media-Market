@@ -233,6 +233,7 @@ header .navbar .nav-info {
   background: beige;
   opacity: 0;
   width: 500px;
+  transform: translateX(100vw);
   overflow: hidden;
   padding: 2rem 1.5rem;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -263,6 +264,7 @@ header .navbar .nav-info {
 .show-cart {
   opacity: 1;
   z-index: 1;
+  transform: translateX(0);
 }
 
 /* end of cart */
