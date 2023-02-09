@@ -237,6 +237,8 @@ header .navbar .nav-info {
   overflow: hidden;
   padding: 2rem 1.5rem;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  overflow-y: scroll;
+  max-height: 75vh;
   z-index: -99;
 }
 .cart-item {

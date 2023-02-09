@@ -266,6 +266,8 @@ header{
   overflow: hidden;
   padding: 2rem 1.5rem;
   box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+  overflow-y: scroll;
+  max-height: 75vh;
   z-index: -99;
 
   &-item{
